@@ -1,7 +1,7 @@
 // import { bootstrapGremilinServer } from '../src/bootstrap'
 const { bootstrapGremilinServer } = require('./bootstrap');
 
-module.exports.hello = async event => {
+module.exports.bootstrap = async event => {
   let body = await bootstrapGremilinServer();
   return {
     statusCode: 200,
