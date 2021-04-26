@@ -1,5 +1,5 @@
 // import { bootstrapGremilinServer } from '../src/bootstrap'
-const { bootstrapGremilinServer } = require('./bootstrap');
+const { bootstrapGremilinServer } = require('../utils/bootstrapGremlinServer');
 
 module.exports.bootstrap = async event => {
   let body = await bootstrapGremilinServer();
